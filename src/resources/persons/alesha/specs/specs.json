@@ -1,0 +1,31 @@
+[
+    {
+        "name": "save_json",
+        "description": "Call it when you need to save json with user credentials.",
+        "parameters": {
+            "type": "object",
+            "required": [
+                "wait_time"
+            ],
+            "properties": {
+                "name": {
+                    "description": "Client name provided by himself",
+                    "type": "string"
+                },
+                "experience": {
+                    "description": "Client experience provided by himself",
+                    "type": "string"
+                },
+                "target": {
+                    "description": "What client says he would like to by snowboard",
+                    "type": "string"
+                },
+                "other": {
+                    "description": "Other additional information provided by the client",
+                    "type": "string"
+                }
+            }
+        },
+        "is_terminating": true
+    }
+]
